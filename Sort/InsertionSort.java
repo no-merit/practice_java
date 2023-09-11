@@ -5,8 +5,16 @@ import java.io.OutputStreamWriter;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Main {
+public class InsertionSort {
+/*
+현재 비교하고자 하는 target과 그 이전의 원소드을 비교하며 교환하는 정렬 방법.
+데이터를 비교하면서 찾는 비교정렬.
+정렬의 대상이 되는 데이터 외에 추가적인 공간을 필요로 하지 않기 때문에 제자리 정렬.
+(데이터를 교환하는 과정에서 tmp가 필요하지만 무시 가능)
 
+안정 정렬.
+
+*/
 	static int[] A;
 	static int[] tmp;
 	static int cnt, K, N;
